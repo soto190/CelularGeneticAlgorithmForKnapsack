@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_KNBp4EvDEeOHJPlz_O3Hdw" name="NewModel">
+  <packageImport xmi:id="_2snv4EvDEeOHJPlz_O3Hdw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_r1J3EEvDEeOHJPlz_O3Hdw" name="Item">
+    <ownedAttribute xmi:id="_wUJK4EvDEeOHJPlz_O3Hdw" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wUYbcEvDEeOHJPlz_O3Hdw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wUZCgEvDEeOHJPlz_O3Hdw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_wg4mYEvDEeOHJPlz_O3Hdw" name="gain">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_whKTMEvDEeOHJPlz_O3Hdw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_whKTMUvDEeOHJPlz_O3Hdw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_w4IowEvDEeOHJPlz_O3Hdw" name="weight">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w4QkkEvDEeOHJPlz_O3Hdw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w4QkkUvDEeOHJPlz_O3Hdw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_6FdT8EvDEeOHJPlz_O3Hdw" name="quality">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6FjakEvDEeOHJPlz_O3Hdw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6FkBoEvDEeOHJPlz_O3Hdw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_39mPkEvDEeOHJPlz_O3Hdw" name="getId"/>
+    <ownedOperation xmi:id="_4SYMwEvDEeOHJPlz_O3Hdw" name="getGain"/>
+  </packagedElement>
+</uml:Model>
